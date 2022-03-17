@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="166849" started-at="2022-03-17T10:46:48 EET" finished-at="2022-03-17T10:49:35 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="Driver.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@3224f60b]" name="runScenario" class="Base.Driver"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="166849" started-at="2022-03-17T10:46:48 EET" finished-at="2022-03-17T10:49:35 EET">
+      <class name="Runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.Runner@3224f60b]" name="setUpClass" is-config="true" duration-ms="840" started-at="2022-03-17T10:46:48 EET" finished-at="2022-03-17T10:46:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="CreateDriver()[pri:0, instance:Runner.Runner@3224f60b]" name="CreateDriver" is-config="true" duration-ms="44937" started-at="2022-03-17T10:46:49 EET" finished-at="2022-03-17T10:47:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDriver -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@3224f60b]" name="runScenario" duration-ms="8848" started-at="2022-03-17T10:47:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-17T10:47:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check login is sucessful A"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Runner.Runner@3224f60b]" name="afterSuite" is-config="true" duration-ms="1539" started-at="2022-03-17T10:47:43 EET" finished-at="2022-03-17T10:47:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="CreateDriver()[pri:0, instance:Runner.Runner@3224f60b]" name="CreateDriver" is-config="true" duration-ms="43070" started-at="2022-03-17T10:47:44 EET" finished-at="2022-03-17T10:48:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDriver -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@3224f60b]" name="runScenario" duration-ms="7877" started-at="2022-03-17T10:48:27 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-17T10:48:35 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check login is sucessful B"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Runner.Runner@3224f60b]" name="afterSuite" is-config="true" duration-ms="1872" started-at="2022-03-17T10:48:35 EET" finished-at="2022-03-17T10:48:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="CreateDriver()[pri:0, instance:Runner.Runner@3224f60b]" name="CreateDriver" is-config="true" duration-ms="42497" started-at="2022-03-17T10:48:37 EET" finished-at="2022-03-17T10:49:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDriver -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@3224f60b]" name="runScenario" duration-ms="13062" started-at="2022-03-17T10:49:19 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-17T10:49:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check login is sucessful C"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Runner.Runner@3224f60b]" name="afterSuite" is-config="true" duration-ms="1695" started-at="2022-03-17T10:49:32 EET" finished-at="2022-03-17T10:49:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.Runner@3224f60b]" name="tearDownClass" is-config="true" duration-ms="574" started-at="2022-03-17T10:49:34 EET" finished-at="2022-03-17T10:49:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
